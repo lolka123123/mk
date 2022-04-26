@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'FontAwesome Brands';
+    src: url("../icon/webfonts/fa-brands-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome Duotone';
+    src: url("../icon/webfonts/fa-duotone-900.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-light-300.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-regular-400.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url("../icon/webfonts/fa-solid-900.ttf");
+    font-weight: 900;
+}
+
+.fas {
+    font-family: 'FontAwesome';
+    font-weight: 900;
+}
+
+.far {
+    font-family: 'FontAwesome';
+    font-weight: 400;
+}
+
+.fal {
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+
+.fad {
+    font-family: 'FontAwesome Duotone';
+    font-weight: 900;
+}
+
+.fab {
+    font-family: 'FontAwesome Brands';
+    font-weight: 400;
+}
+
+
+@font-face{
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: "Roboto";
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Gothic A1";
+    src: url("../font/Gothic_A1/GothicA1-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: "Gothic A1";
+    src: url("../font/Gothic_A1/GothicA1-Regular.ttf");
+    font-weight: 400;
+}
+
+
+
+
+.icon-phone-alt::before{
+    content: "\f879";
+    font-style: normal;
+    font-size: 28px;
+    color: #D00000;
+}
+
+.icon-envelope::before{
+    content: "\f0e0";
+    font-style: normal;
+    font-size: 28px;
+    color: #D00000;
+}
+
+.icon-search::before{
+    content: "\f002";
+    font-style: normal;
+    font-size: 30px;
+    color: var(--primery-text-color);
+}
+
+.icon-gamepad-alt::before{
+    content: "\f8bc";
+    font-style: normal;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+.icon-key::before{
+    content: "\f084";
+    font-style: normal;
+    font-size: 80px;
+    color: #FFFFFF;
+}
+
+.icon-lock::before{
+    content: "\f30d";
+    font-style: normal;
+    font-size: 80px;
+    color: #FFFFFF;
+}
