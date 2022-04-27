@@ -25,6 +25,24 @@
     .nav_link{
         margin: 0 10px;
     }
+
+
+    .section6_block_pers:nth-child(4) {
+        position: absolute;
+        width: 35%;
+        top: 43px;
+        left: 400px;
+        z-index: 3;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(4):hover {
+        width: 40%;
+        top: 23px;
+        left: 380px;
+        z-index: 6;
+    }
 }
 
 @media(max-width: 1250px){
@@ -42,7 +60,7 @@
     }
 
     .section{
-        height: auto;
+        padding: 0;
     }
 
     .section_img{
@@ -61,6 +79,98 @@
 
     .section3_card_text{
         font-size: 14px;
+    }
+
+
+
+
+
+    .section6_block_pers:nth-child(2) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        left: 200px;
+        z-index: 1;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(2):hover {
+        width: 25%;
+        top: 23px;
+        left: 180px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(3) {
+        position: absolute;
+        width: 20%;
+        top: 188px;
+        left: 200px;
+        z-index: 2;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(3):hover {
+        width: 25%;
+        top: 188px;
+        left: 180px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(4) {
+        position: absolute;
+        width: 35%;
+        top: 43px;
+        left: 335px;
+        z-index: 3;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(4):hover {
+        width: 40%;
+        top: 23px;
+        left: 305px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(5) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        right: 200px;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(5):hover {
+        width: 25%;
+        top: 23px;
+        right: 180px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(6) {
+        position: absolute;
+        width: 20%;
+        top: 168px;
+        right: 200px;
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(6):hover {
+        width: 25%;
+        top: 188px;
+        right: 180px;
+        z-index: 6;
+    }
+
+
+    .section6_title{
+        padding: 520px 0 30px;
     }
 }
 
@@ -89,6 +199,114 @@
     .section4_block_card{
         width: 40%;
         margin-bottom: 20px;
+    }
+
+
+
+    .section6_title{
+        padding: 490px 0 30px;
+    }
+
+    .section5_text{
+        width: 100%;
+    }
+
+
+    .section7_text{
+        width: 100%;
+    }
+
+
+    .section6_block_pers:nth-child(2) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        left: 160px;
+        z-index: 1;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(2):hover {
+        width: 25%;
+        top: 23px;
+        left: 140px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(3) {
+        position: absolute;
+        width: 20%;
+        top: 188px;
+        left: 160px;
+        z-index: 2;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(3):hover {
+        width: 25%;
+        top: 188px;
+        left: 140px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(4) {
+        position: absolute;
+        width: 35%;
+        top: 43px;
+        left: 265px;
+        z-index: 3;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(4):hover {
+        width: 40%;
+        top: 23px;
+        left: 245px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(5) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        right: 160px;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(5):hover {
+        width: 25%;
+        top: 23px;
+        right: 140px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(6) {
+        position: absolute;
+        width: 20%;
+        top: 168px;
+        right: 160px;
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(6):hover {
+        width: 25%;
+        top: 188px;
+        right: 140px;
+        z-index: 6;
+    }
+
+
+    .section6{
+        height: 630px;
+    }
+
+    .section6_title{
+        padding: 410px 0 30px;
     }
 }
 
@@ -124,6 +342,120 @@
         margin-top: 20px;
         width: 60%;
     }
+
+
+
+
+    .section7_imgs{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section7_imgs img{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+
+    .section5_text{
+        font-size: 15px;
+    }
+
+    .section6_text{
+        font-size: 15px;
+    }
+
+    .section7_text{
+        font-size: 15px;
+    }
+
+
+
+
+
+    .section6_block_pers:nth-child(2) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        left: 140px;
+        z-index: 1;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(2):hover {
+        width: 25%;
+        top: 23px;
+        left: 120px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(3) {
+        position: absolute;
+        width: 20%;
+        top: 188px;
+        left: 140px;
+        z-index: 2;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(3):hover {
+        width: 25%;
+        top: 188px;
+        left: 120px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(4) {
+        position: absolute;
+        width: 35%;
+        top: 43px;
+        left: 200px;
+        z-index: 3;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(4):hover {
+        width: 40%;
+        top: 23px;
+        left: 185px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(5) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        right: 140px;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(5):hover {
+        width: 25%;
+        top: 23px;
+        right: 120px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(6) {
+        position: absolute;
+        width: 20%;
+        top: 168px;
+        right: 140px;
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(6):hover {
+        width: 25%;
+        top: 188px;
+        right: 120px;
+        z-index: 6;
+    }
+    
 }
 
 
@@ -181,6 +513,95 @@
     }
 
 
+
+    .section6_block_pers:nth-child(2) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        left: 90px;
+        z-index: 1;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(2):hover {
+        width: 25%;
+        top: 23px;
+        left: 80px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(3) {
+        position: absolute;
+        width: 20%;
+        top: 160px;
+        left: 90px;
+        z-index: 2;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(3):hover {
+        width: 25%;
+        top: 160px;
+        left: 80px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(4) {
+        position: absolute;
+        width: 35%;
+        top: 43px;
+        left: 135px;
+        z-index: 3;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(4):hover {
+        width: 40%;
+        top: 23px;
+        left: 105px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(5) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        right: 90px;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(5):hover {
+        width: 25%;
+        top: 23px;
+        right: 80px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(6) {
+        position: absolute;
+        width: 20%;
+        top: 168px;
+        right: 90px;
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(6):hover {
+        width: 25%;
+        top: 188px;
+        right: 80px;
+        z-index: 6;
+    }
+
+
+    .section6_title{
+        padding: 340px 0 30px;
+    }
+
     
 }
 
@@ -207,5 +628,99 @@
 
     footer{
         padding: 35px 0;
+    }
+
+
+
+    .section6_block_pers:nth-child(2) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        left: 70px;
+        z-index: 1;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(2):hover {
+        width: 25%;
+        top: 23px;
+        left: 60px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(3) {
+        position: absolute;
+        width: 20%;
+        top: 160px;
+        left: 70px;
+        z-index: 2;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(3):hover {
+        width: 25%;
+        top: 160px;
+        left: 60px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(4) {
+        position: absolute;
+        width: 35%;
+        top: 70px;
+        left: 100px;
+        z-index: 3;
+        transition: 0.3s;
+    
+    }
+    
+    .section6_block_pers:nth-child(4):hover {
+        width: 40%;
+        top: 60px;
+        left: 90px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(5) {
+        position: absolute;
+        width: 20%;
+        top: 39px;
+        right: 70px;
+        z-index: 1;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(5):hover {
+        width: 25%;
+        top: 23px;
+        right: 60px;
+        z-index: 6;
+    }
+    
+    .section6_block_pers:nth-child(6) {
+        position: absolute;
+        width: 20%;
+        top: 168px;
+        right: 70px;
+        z-index: 2;
+        transition: 0.3s;
+    }
+    
+    .section6_block_pers:nth-child(6):hover {
+        width: 25%;
+        top: 188px;
+        right: 60px;
+        z-index: 6;
+    }
+
+
+    .section6_title{
+        padding: 340px 0 20px;
+    }
+
+    .section6{
+        height: 580px;
     }
 }

@@ -23,7 +23,7 @@ body {
     --secendery-font: "Gothic A1";
 }
 
-main{
+main {
     margin-top: -155px;
 }
 
@@ -75,7 +75,7 @@ main{
 .nav {
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     padding: 15px 0;
     background: rgba(0, 0, 0, 0.45);
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.09);
@@ -108,7 +108,7 @@ main{
 /* section */
 
 .section {
-    height: 933px;
+    padding: 336px 0 356px;
     position: relative;
 }
 
@@ -271,15 +271,15 @@ main{
     width: 23%;
 }
 
-.section4_block_card img{
+.section4_block_card img {
     width: 100%;
 }
 
-.section4_block_card:hover .section4_block_card_text{
+.section4_block_card:hover .section4_block_card_text {
     opacity: 1;
 }
 
-.section4_block_card:hover .section4_block_card_price{
+.section4_block_card:hover .section4_block_card_price {
     opacity: 0;
 }
 
@@ -320,7 +320,7 @@ main{
     overflow: hidden;
 }
 
-.section4_bg1{
+.section4_bg1 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -329,7 +329,7 @@ main{
     overflow: hidden;
 }
 
-.section4_bg2{
+.section4_bg2 {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -341,9 +341,310 @@ main{
 
 
 
+/* section5 */
+
+.section5 {
+    padding: 284px 0 70px;
+    position: relative;
+}
+
+.section5_bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+.section5_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5_video {
+    width: 80%;
+    height: max-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section5_video_img {
+    width: 100%;
+}
+
+.section5_video_you{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    z-index: -1;
+}
+
+.section5_video_you.lol{
+    opacity: 1;
+    z-index: 0;
+}
 
 
 
+.section5_video_play {
+    position: absolute;
+}
+
+.section5_title {
+    margin: 60px 0 30px;
+    font-family: var(--secendery-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--primery-text-color);
+}
+
+.section5_text {
+    width: 80%;
+    font-family: var(--secendery-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--primery-text-color);
+}
+
+
+
+/* section6 */
+
+.section6 {
+    border-top: solid 1px #C99D60;
+    background: rgba(44, 49, 54, 0.7);
+    height: 779px;
+    position: relative;
+}
+
+.section6_bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.section6_block {
+    position: relative;
+}
+
+.section6_block_pers img {
+    width: 100%;
+}
+
+.section6_block_pers:nth-child(1) {
+    position: absolute;
+    width: 30%;
+    top: 63px;
+    z-index: 0;
+    transition: 0.3s;
+}
+
+.section6_block_pers:nth-child(1):hover {
+    width: 35%;
+    top: 23px;
+    left: -20px;
+    z-index: 6;
+}
+
+.section6_block_pers:nth-child(2) {
+    position: absolute;
+    width: 20%;
+    top: 39px;
+    left: 291px;
+    z-index: 1;
+    transition: 0.3s;
+
+}
+
+.section6_block_pers:nth-child(2):hover {
+    width: 25%;
+    top: 23px;
+    left: 271px;
+    z-index: 6;
+}
+
+.section6_block_pers:nth-child(3) {
+    position: absolute;
+    width: 20%;
+    top: 188px;
+    left: 291px;
+    z-index: 2;
+    transition: 0.3s;
+
+}
+
+.section6_block_pers:nth-child(3):hover {
+    width: 25%;
+    top: 188px;
+    left: 271px;
+    z-index: 6;
+}
+
+.section6_block_pers:nth-child(4) {
+    position: absolute;
+    width: 35%;
+    top: 43px;
+    left: 444px;
+    z-index: 3;
+    transition: 0.3s;
+
+}
+
+.section6_block_pers:nth-child(4):hover {
+    width: 40%;
+    top: 23px;
+    left: 414px;
+    z-index: 6;
+}
+
+.section6_block_pers:nth-child(5) {
+    position: absolute;
+    width: 20%;
+    top: 39px;
+    right: 321px;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.section6_block_pers:nth-child(5):hover {
+    width: 25%;
+    top: 23px;
+    right: 301px;
+    z-index: 6;
+}
+
+.section6_block_pers:nth-child(6) {
+    position: absolute;
+    width: 20%;
+    top: 168px;
+    right: 291px;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.section6_block_pers:nth-child(6):hover {
+    width: 25%;
+    top: 188px;
+    right: 271px;
+    z-index: 6;
+}
+
+.section6_block_pers:nth-child(7) {
+    position: absolute;
+    width: 30%;
+    top: 63px;
+    right: 0;
+    z-index: 0;
+    transition: 0.3s;
+}
+
+.section6_block_pers:nth-child(7):hover {
+    width: 35%;
+    top: 23px;
+    right: -20px;
+    z-index: 6;
+}
+
+
+.section6_title {
+    padding: 605px 0 30px;
+    font-family: var(--secendery-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--primery-text-color);
+}
+
+.section6_text {
+    font-family: var(--secendery-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--primery-text-color);
+
+}
+
+
+
+
+
+
+/* section7 */
+
+.section7 {
+    border-top: solid 1px #C99D60;
+    padding: 40px 0 24px;
+    position: relative;
+    background: rgba(8, 9, 10, 0.5);
+}
+
+.section7_bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.section7_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section7_imgs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section7_imgs img {
+    width: 49%;
+}
+
+.section7_title {
+    margin: 50px 0 30px;
+    font-family: var(--secendery-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: var(--primery-text-color);
+}
+
+.section7_text {
+    width: 50%;
+    font-family: var(--secendery-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--primery-text-color);
+}
 
 
 
