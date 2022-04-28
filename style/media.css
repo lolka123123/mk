@@ -345,6 +345,12 @@
 
 
 
+    .section5_video{
+        width: 100%;
+    }
+
+
+
 
     .section7_imgs{
         flex-wrap: wrap;
@@ -455,6 +461,11 @@
         right: 120px;
         z-index: 6;
     }
+
+
+
+
+
     
 }
 

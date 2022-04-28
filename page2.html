@@ -50,12 +50,12 @@
         <section class="section5">
             <img class="section5_bg" src="img/Rectangle 30.png" alt="">
             <div class="container section5_content">
-                <button onclick="myFunction()" class="section5_video">
+                <button onclick="myFunction()" id="button" class="section5_video">
                     <img class="section5_video_img" src="img/Rectangle 31.png" alt="">
                     <img class="section5_video_play" src="img/Group.png" alt="">
                     <iframe id="ds" class="section5_video_you" src="https://www.youtube.com/embed/dQw4w9WgXcQ"
                         title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allow=" accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </button>
 
@@ -126,12 +126,22 @@
     </footer>
 
     <script>
-        function myFunction(){
+        function myFunction() {
             var element =
-            document.getElementById("ds");
+                document.getElementById("ds");
             element.classList.add("lol");
         }
-            
+
+        var fullscreen = document.getElementById('button'),
+            player = document.getElementById('ds');
+
+        fullscreen.addEventListener('click', function (e) {
+            if (~player.src.indexOf('?')) player.src += '&autoplay=1';
+            else player.src += '?autoplay=1';
+
+            req.call(player);
+            e.preventDefault();
+        });
     </script>
 
 </body>
